@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cartly-pycommons"
+version = "1.2.0"
+description = "Shared building blocks for Cartly Python services: structured logging, HTTP helpers, ASGI middleware."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["cartly_commons*"]
