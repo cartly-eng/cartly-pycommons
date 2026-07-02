@@ -4,7 +4,7 @@ import logging
 import sys
 import traceback
 
-_EXTRA_KEYS = ("route", "status", "duration_ms", "order_id", "sku", "error", "attempt")
+_EXTRA_KEYS = ("route", "status", "duration_ms", "order_id", "sku", "error", "attempt", "request_id")
 
 
 class JsonFormatter(logging.Formatter):
