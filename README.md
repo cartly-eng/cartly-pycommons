@@ -9,5 +9,5 @@ Shared building blocks for Cartly Python services.
 Install (services pin a tag):
 
 ```
-cartly-pycommons @ git+ssh://git@github.com/prateekkanurkar-cmd/cartly-pycommons.git@v1.4.0
+cartly-pycommons @ git+ssh://git@github.com/cartly-eng/cartly-pycommons.git@v1.4.0
 ```
