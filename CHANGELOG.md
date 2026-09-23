@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.5.0
+- middleware: replay buffer raised to 512 KB so large JSON responses are captured in full for error reports.
+
 ## 1.4.0
 - New `cartly_commons.middleware.RequestContextMiddleware`: request id propagation (`x-request-id`),
   `current_request_context()`, and a response replay buffer for error reports / late span enrichment.

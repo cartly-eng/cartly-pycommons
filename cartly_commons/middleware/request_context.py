@@ -14,7 +14,7 @@ import uuid
 from dataclasses import dataclass, field
 from typing import Dict, Optional
 
-DEFAULT_REPLAY_BUFFER_BYTES = 256 * 1024
+DEFAULT_REPLAY_BUFFER_BYTES = 512 * 1024
 
 _current: contextvars.ContextVar[Optional["RequestContext"]] = contextvars.ContextVar("cartly_request_context", default=None)
 _contexts: Dict[str, "RequestContext"] = {}
